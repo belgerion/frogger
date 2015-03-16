@@ -40,7 +40,7 @@ var Engine = (function(global) {
          * computer is) - hurray time!
          */
         var now = Date.now(),
-            dt = (now - lastTime) / 1000.0;
+            dt = (now - lastTime) / 600.0;
 
         /* Call our update/render functions, pass along the time delta to
          * our update function since it may be used for smooth animation.
@@ -116,7 +116,7 @@ var Engine = (function(global) {
                 'images/grass-block.png'    // Row 2 of 2 of grass
             ],
             numRows = 6,
-            numCols = 5,
+            numCols = 8,
             row, col;
 
         /* Loop through the number of rows and columns we've defined above
