@@ -1,6 +1,7 @@
 Directions:
-Open the index.html file in the main directory in a new browser tab, and the game will start.
+Open the index.html file in the main directory in a new browser tab, and the game will start.(make sure JavaScript is enabled)
 Use the arrow keys to move across the board, and avoid the bugs.
+Cross the board without getting touched by the roaches and win.
 
 References:
 -Both Udacity courses on JavaScript.
